@@ -1,0 +1,21 @@
+{
+    "name": "jellelampaert/ci4_auth",
+    "description": "An authentication-library for Codeigniter 4",
+    "keywords": ["codeigniter4", "authentication"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jelle Lampaert",
+            "email": "jellelampaert@gmail.com"
+        }
+    ],
+    "require": {
+		"php": ">=7.2",
+		"codeigniter4/framework": "^4"
+    },
+    "autoload": {
+        "psr-4": {
+            "jellelampaert\\ci4_auth\\": "src"
+        }
+    }
+}
