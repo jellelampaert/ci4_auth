@@ -22,6 +22,3 @@ Next, add a filter for the protected pages, e.g.:
     `public $filters = [
 		'auth' => ['before' => ['admin', 'admin/*']]
 	];`
-
-*Users don't receive e-mails for validating their e-mail address*  
-The authentication library doesn't send mails. It puts them into a mailqueue-table. You are responsible for sending e-mails using the library you like, by fetching them using the Mailqueue-library.
