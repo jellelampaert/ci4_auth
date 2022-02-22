@@ -5,8 +5,8 @@ Configuration is done in `Config/Auth.php`, or in the `.env`-file.
 
 ## Events
 There are certain events you can subscribe to in your `Config/Events.php`.
-* login($user_id)_ - A user has logged in
-* logout($user_id)_ - A user has logged out
+* _login($user_id)_ - A user has logged in
+* _logout($user_id)_ - A user has logged out
 * _user_created($user_id)_ - A new user was created, either by using the registration form or in code.
 * _user_registered($user_id)_ - A new user has registered by using the registration form
 * _user_must_be_activated($user_id)_ - Called when a new users has been created, but an admin must activate the user
